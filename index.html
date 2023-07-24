@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="container text-center">
+			<a href="https://www.miigaik.ru/">
+			<img src="img/logo/logotip.png" style="max-width: 100%; height: auto;"></a>
+			<div class="display-4">MiggaMerch</div>
+			<p class="lead"><a href="http://mgugik.ru/">ПРОФСОЮЗ ОБУЧАЮЩИХСЯ МИИГАИК</a></p>
+			<p class="lead"></p>+7 (499) 763-34-30</p>
+		</div>
+	</header>
+
+
+	<div class="container mb-5">
+		<div class="row">
+
+			<!-- Лента товаров  -->
+			<div class="col-md-8">
+				<div class="row" id="products-container"> 	
+				</div>
+			</div>
+
+			<!-- Корзина товаров  --> 
+			<div class="col-md-4">
+
+				<!-- Корзина -->
+				<div class="card mb-4">
+					<div class="card-body">
+						<h5 class="card-title">Ваш заказ</h4>
+						<div data-cart-empty class="alert alert-secondary" role="alert">
+							Корзина пуста
+						</div>
+						<!-- cart-wrapper -->
+						<div class="cart-wrapper">
+
+
+
+						</div>
+						<!-- // cart-wrapper -->
+
+						<!-- Стоимость заказа -->
+						<div class="cart-total">
+							<p data-cart-delivery class="none">
+								<span class="h5">Самовывоз (Главный корпус, студенческий центр):</span> 
+								<span class="delivery-cost">250 ПФК</span> 
+							</p>
+							<p><span class="h5">Итого:</span> <span class="total-price">0</span> <span class="rouble">ПФК</span></p>
+						</div>
+						<!-- // Стоимость заказа -->
+
+					</div>
+
+					<!-- Оформить заказ -->
+					<div id="order-form" class="card-body border-top none">
+
+						<h5 class="card-title">Оформить заказ</h4>
+
+							<form class="telegram-form">
+								
+								<div class="form-group">  
+
+									<input type="text" class="form-control1" name="namebr" placeholder="Ваш номер телефона: 89876543210">
+
+									<input type="text1" class="form-control1" name="name" placeholder="Имя: Артём">
+
+									<input type="text2" class="form-control1" name="surname" placeholder="Фамилия: Токарь">
+									
+									<input type="text3" class="form-control1" name="student" placeholder="Номер студенческого: 124578">
+									
+									<input type="text3" class="form-control1" name="article" placeholder="Article number: 0001,0003">
+
+									<div class="g-recaptcha" data-theme="light" data-sitekey="6LfwTUEnAAAAALCV0PBmDPle74-mXQ4XjAM6giO-"
+									style="transform:scale(0.6);-webkit-transform:scale(0.6);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+								
+								</div>
+
+							<button type="submit" class="btn btn-primary">Заказать</button>
+
+						</form>
+					</div>
+					<!-- // Оформить заказ -->
+
+				</div>
+				<!-- // Корзина -->
+
+			</div>
+		</div>
+	</div>
+
+
+<!-- Подключаю файлы JavaScript  --> 
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<script src="./js/renderProducts.js"></script>	
+<script src="./js/calcCartPrice.js"></script>
+<script src="./js/toggleCartStatus.js"></script>
+<script src="./js/counter-02.js"></script>
+<script src="./js/cart-02.js"></script>
+
+</body>
+
+</html>

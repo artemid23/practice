@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"title": "Powerbank",
+		"itemsInBox": "0001",
+		"weight": "",
+		"price": 2600,
+		"imgSrc": "IMG_20230715_102938.png"
+	},
+	{
+		"id": 2,
+		"title": "Обложка на студенческий билет",
+		"itemsInBox": "0002",
+		"weight": "",
+		"price": 500,
+		"imgSrc": "IMG_20230715_102412.png"
+	},
+	{
+		"id": 3,
+		"title": "Термокружка",
+		"itemsInBox": "0003",
+		"weight": "",
+		"price": 1000,
+		"imgSrc": "IMG_20230715_121518.png"
+	},
+	{
+		"id": 4,
+		"title": "Футболка Work Hard",
+		"itemsInBox": "0004",
+		"weight": "Размер:M",
+		"price": 2400,
+		"imgSrc": "IMG_20230715_103601.png"
+	},
+	{
+		"id": 5,
+		"title": "Поясная сумка",
+		"itemsInBox": "0005",
+		"weight": "",
+		"price": 1200,
+		"imgSrc": "IMG_20230715_103136.png"
+	},
+	{
+		"id": 6,
+		"title": "Тетрадь и ручка",
+		"itemsInBox": "0006",
+		"weight": "",
+		"price": 600,
+		"imgSrc": "1689406137285.png"
+	},
+	{
+		"id": 7,
+		"title":"Бомбер Work Hard",
+		"itemsInBox": "0007",
+		"weight": "Размер:M",
+		"price": 3000,
+		"imgSrc": "photo_2023-07-15_09-48-19.jpg"
+	},
+	{
+		"id": 8,
+		"title": "Браслет",
+		"itemsInBox": "0008",
+		"weight": "",
+		"price": 100,
+		"imgSrc": "IMG_20230715_103520.png"
+	},
+	{
+		"id": 9,
+		"title": "Значок",
+		"itemsInBox": "0009",
+		"weight": "",
+		"price": 700,
+		"imgSrc": "IMG_20230715_103032.png"
+	},
+	{
+		"id": 10,
+		"title": "Стикер-пак",
+		"itemsInBox": "0010",
+		"weight": "",
+		"price": 300,
+		"imgSrc": "IMG_20230715_103224.jpg"
+	}
+]
